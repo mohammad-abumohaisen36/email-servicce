@@ -11,6 +11,7 @@ stock-service-consumer:
   auto-offset-reset: ${AUTO_OFFSET_RESET:earliest}
   auto-offset-commit: ${AUTO_OFFSET_COMMIT:true}
 
+
 logging:
   level:
     org.apache.kafka: error
